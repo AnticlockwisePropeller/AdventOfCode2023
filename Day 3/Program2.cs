@@ -54,14 +54,11 @@ class Program
             foreach (Match star in stars)
             {
                 //Variable to count how many adjacent numbers are found
-                //int count = 0;
+                int count = 0;
 
                 //Variables to store the first and second numbers found
-                //int num1 = 0;
-                //int num2 = 0;
-
-                //Array to contain the results
-                int[] result = [0,0,0];
+                int num1 = 0;
+                int num2 = 0;
 
                 //If there is a previous line, search that line for numbers
                 if (i > 0)
